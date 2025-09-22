@@ -1,0 +1,5 @@
+/rsvp/*
+  Content-Security-Policy: frame-ancestors *
+
+/countdown/*
+  Content-Security-Policy: frame-ancestors *
