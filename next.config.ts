@@ -6,14 +6,12 @@ const nextConfig: NextConfig = {
       {
         source: "/rsvp/:path*",
         headers: [
-          { key: "X-Frame-Options", value: "ALLOWALL" },
           { key: "Content-Security-Policy", value: "frame-ancestors *" },
         ],
       },
       {
         source: "/countdown/:path*",
         headers: [
-          { key: "X-Frame-Options", value: "ALLOWALL" },
           { key: "Content-Security-Policy", value: "frame-ancestors *" },
         ],
       },
