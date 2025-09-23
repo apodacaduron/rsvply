@@ -1,5 +1,13 @@
 /rsvp/*
   Content-Security-Policy: frame-ancestors *
+  Access-Control-Allow-Origin: https://canva-embed.com
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, Authorization
+  Access-Control-Allow-Credentials: true
 
 /countdown/*
   Content-Security-Policy: frame-ancestors *
+  Access-Control-Allow-Origin: https://canva-embed.com
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, Authorization
+  Access-Control-Allow-Credentials: true
